@@ -35,15 +35,17 @@ Clone this repository, then run the application in one of the following ways.
     [These instructions](http://devcenter.heroku.com/articles/scala#deploy_to_herokucedar) should
     work out of the box. The last few lines of the output should look like this.
 
-               [success] Total time: 0 s, completed Jan 12, 2012 4:31:05 AM
-        -----> Discovering process types
-               Procfile declares types -> web
-        -----> Compiled slug size is 37.1MB
-        -----> Launching... done, v5
-               http://quiet-samurai-5737.herokuapp.com deployed to Heroku
-        
-        To git@heroku.com:quiet-samurai-5737.git
-         * [new branch]      master -> master
+	       [success] Total time: 5 s, completed Dec 1, 2012 6:13:21 AM
+	       [info] Wrote start script for mainClass := Some(spray.examples.Boot) to /tmp/build_326t41ltqpc34/target/start
+	       [success] Total time: 0 s, completed Dec 1, 2012 6:13:21 AM
+	-----> Discovering process types
+	       Procfile declares types -> web
+	-----> Compiled slug size: 83.1MB
+	-----> Launching... done, v9
+	       http://laufer-spray-routing-simple.herokuapp.com deployed to Heroku
+
+	To git@heroku.com:laufer-spray-routing-simple.git
+	   2023f74..c0c4824  master -> master
 
     Now you can connect to the app URL `http://quiet-samurai-5737.herokuapp.com` *on port 80*. 
     There is an internal port that varies across invocations of the app, but the app 
