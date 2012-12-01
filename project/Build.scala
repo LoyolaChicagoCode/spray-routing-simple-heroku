@@ -7,7 +7,7 @@ object Build extends Build {
   import BuildSettings._
   import Dependencies._
 
-  lazy val root = Project("spray-routing-simple-standalone",file("."))
+  lazy val root = Project("spray-routing-simple-heroku",file("."))
     .settings(SbtStartScript.startScriptForClassesSettings: _*)
     .settings(basicSettings: _*)
     .settings(libraryDependencies ++=
