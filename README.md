@@ -8,8 +8,8 @@ Clone this repository, then run the application in one of the following ways.
 
 - Locally using sbt
 
-        $ sbt clean compile run
-        ...
+	$ sbt clean compile run
+	...
 	[success] Total time: 6 s, completed Dec 1, 2012 12:08:50 AM
 	[info] Running spray.examples.Boot 
 	12/01 00:08:50 INFO [spray-examples-Boot-akka.actor.default-dispatcher-2] a.e.s.Slf4jEventHandler - Slf4jEventHandler started
@@ -18,13 +18,13 @@ Clone this repository, then run the application in one of the following ways.
 
 - Locally using foreman (simulates Heroku)
 
-        $ sbt clean compile stage
-        ...
+	$ sbt clean compile stage
+	...
 	[success] Total time: 23 s, completed Dec 1, 2012 12:10:20 AM
 	[info] Wrote start script for mainClass := Some(spray.examples.Boot) to /Users/laufer/Work/GitHub/webservices-cs-luc-edu/spray-routing-simple-heroku/target/start
 	[success] Total time: 0 s, completed Dec 1, 2012 12:10:20 AM
 
-        $ foreman start
+	$ foreman start
 	00:10:57 web.1     | started with pid 8144
 	00:10:58 web.1     | 12/01 00:10:58 INFO [spray-examples-Boot-akka.actor.default-dispatcher-2] a.e.s.Slf4jEventHandler - Slf4jEventHandler started
 	00:10:58 web.1     | 12/01 00:10:58 INFO [spray-examples-Boot-akka.actor.default-dispatcher-2] s.i.IOBridge - IOBridge 'akka://spray-examples-Boot/user/io-bridge' started
